@@ -2,7 +2,7 @@
     "version": 8,
     "name": "building-demo",
     "sources": {
-        "mapbox": {
+        "openmaptiles": {
             "tiles": ["http://localhost:18080/data/osm2vectortiles/{z}/{x}/{y}.pbf"],
             "type": "vector"
         }
@@ -10,16 +10,16 @@
     "layers": [
         {
             "id": "building",
-            "type": "fill",
-            "source": "mapbox",
+            "type": "fill-extrusion",
+            "source": "openmaptiles",
             "source-layer": "building",
             "paint": {
-              "fill-color": "grey",
-              "fill-extrude-height": {
+              "fill-extrusion-color": "grey",
+              "fill-extrusion-height": {
                 "property": "render_height",
                 "type": "identity"
               },
-              "fill-extrude-base": {
+              "fill-extrusion-base": {
                 "property": "render_min_height",
                 "type": "identity"
               }
