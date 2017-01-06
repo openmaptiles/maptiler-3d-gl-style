@@ -244,23 +244,6 @@
       }
     },
     {
-      "id": "building-3d",
-      "type": "fill-extrusion",
-      "source": "openmaptiles",
-      "source-layer": "building",
-      "paint": {
-        "fill-extrusion-color": "hsl(39, 41%, 86%)",
-        "fill-extrusion-height": {
-          "property": "render_height",
-          "type": "identity"
-        },
-        "fill-extrusion-base": {
-          "property": "render_min_height",
-          "type": "identity"
-        }
-      }
-    },
-    {
       "id": "road_path",
       "type": "line",
       "source": "openmaptiles",
@@ -918,6 +901,23 @@
         "text-color": "#000",
         "text-halo-color": "hsl(0, 0%, 100%)",
         "text-halo-width": 2
+      }
+    },
+    {
+      "id": "building-3d",
+      "type": "fill-extrusion",
+      "source": "openmaptiles",
+      "source-layer": "building",
+      "paint": {
+        "fill-extrusion-color": "hsl(39, 41%, 86%)",
+        "fill-extrusion-height": {
+          "property": "render_height",
+          "type": "identity"
+        },
+        "fill-extrusion-base": {
+          "property": "render_min_height",
+          "type": "identity"
+        }
       }
     },
     {
