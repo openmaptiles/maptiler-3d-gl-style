@@ -1,8 +1,17 @@
-# OSM Bright
+# Klokantech 3D
 [![Build Status](https://travis-ci.org/openmaptiles/building-3d-gl-style.svg?branch=master)](https://travis-ci.org/openmaptiles/building-3d-gl-style)
 
-This is a basic demo of building extrusion in Mapbox GL. To use this, be sure to modify the URL in the sources of `style.json` to the appropriate address.
-Feel free to use this style as an example to use with your own styles!
+A Mapbox GL basemap style featuring 3D buildings using the vector tile
+schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
+
+## Edit the Style
+
+Use the [Maputnik CLI](https://github.com/maputnik/editor) to edit and develop the style.
+After you've started Maputnik open the editor on `localhost:8000`.
+
+```
+maputnik --watch --file style.json
+```
 
 ## Preview
 
