@@ -917,7 +917,8 @@
         "fill-extrusion-base": {
           "property": "render_min_height",
           "type": "identity"
-        }
+        },
+        "fill-extrusion-opacity": 0.6
       }
     },
     {
