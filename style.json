@@ -2,6 +2,10 @@
   "id": "klokantech-3d",
   "version": 8,
   "name": "Klokantech 3D",
+  "metadata": {
+    "mapbox:autocomposite": false,
+    "openmaptiles:version": "3.x"
+  },
   "sources": {
     "openmaptiles": {
       "url": "https://free.tilehosting.com/data/v3.json?key={key}",
