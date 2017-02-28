@@ -4,6 +4,7 @@
   "name": "Klokantech 3D",
   "metadata": {
     "mapbox:autocomposite": false,
+    "maputnik:renderer": "mbgljs",
     "openmaptiles:version": "3.x"
   },
   "sources": {
@@ -1065,8 +1066,5 @@
         "text-halo-blur": 0
       }
     }
-  ],
-  "metadata": {
-    "maputnik:renderer": "mbgljs"
-  }
+  ]
 }
