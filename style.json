@@ -1,5 +1,4 @@
 {
-  "id": "klokantech-3d",
   "version": 8,
   "name": "Klokantech 3D",
   "metadata": {
@@ -211,14 +210,14 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "park",
+      "layout": {},
       "paint": {
         "line-color": "rgba(159, 183, 118, 0.69)",
         "line-dasharray": [
           0.5,
           1
         ]
-      },
-      "layout": {}
+      }
     },
     {
       "id": "waterway",
@@ -246,6 +245,55 @@
           ]
         },
         "line-opacity": 1
+      }
+    },
+    {
+      "id": "tunnel_railway_transit",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "minzoom": 0,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ],
+        [
+          "==",
+          "brunnel",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "transit"
+        ]
+      ],
+      "layout": {
+        "line-cap": "butt",
+        "line-join": "miter"
+      },
+      "paint": {
+        "line-color": "hsl(34, 12%, 66%)",
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              0
+            ],
+            [
+              16,
+              1
+            ]
+          ]
+        },
+        "line-dasharray": [
+          3,
+          3
+        ]
       }
     },
     {
@@ -555,6 +603,44 @@
           ]
         },
         "line-offset": 0
+      }
+    },
+    {
+      "id": "railway_transit",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "transit"
+        ],
+        [
+          "!=",
+          "brunnel",
+          "tunnel"
+        ]
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "hsl(34, 12%, 66%)",
+        "line-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              0
+            ],
+            [
+              16,
+              1
+            ]
+          ]
+        }
       }
     },
     {
@@ -1066,5 +1152,6 @@
         "text-halo-blur": 0
       }
     }
-  ]
+  ],
+  "id": "klokantech-3d"
 }
