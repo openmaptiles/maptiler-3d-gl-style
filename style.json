@@ -1010,7 +1010,14 @@
           "type": "identity"
         },
         "fill-extrusion-opacity": 0.6
-      }
+      },
+      "filter": [
+        "all",
+        [
+          "!has",
+          "hide_3d"
+        ]
+      ]
     },
     {
       "id": "place_label_other",
