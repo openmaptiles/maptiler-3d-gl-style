@@ -6,7 +6,7 @@ schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
 
 ## Preview
 
-![Building Demo](https://cloud.githubusercontent.com/assets/1288339/21714427/36bc28b0-d3ff-11e6-95ea-0ddf851ae678.png)
+![Building Demo](https://user-images.githubusercontent.com/1785486/60903586-e7794780-a271-11e9-93b6-a7b9b36a14c5.png)
 
 ## Edit the Style
 
