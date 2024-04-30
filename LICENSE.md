@@ -1,8 +1,8 @@
-Copyright (c) 2016, KlokanTech.com & OpenMapTiles contributors.  
+Copyright (c) 2024, MapTiler.com & OpenMapTiles contributors.  
 Copyright (c) 2014, Mapbox.  
 All rights reserved.
 
-Modifications by KlokanTech.com & OpenMapTiles contributors.  
+Modifications by MapTiler.com & OpenMapTiles contributors.  
 Derived from "Mapbox Open Styles" https://github.com/mapbox/mapbox-gl-styles
 
 # Code license: BSD 3-Clause License
@@ -57,6 +57,6 @@ For printed and static maps a similar attribution should be made in a textual
 description near the image, in the same fashion as if you cite a photograph.
 
 Exceptions to OpenMapTiles attribution requirement can be in a written form granted
-by Klokan Technologies GmbH (info@klokantech.com).  
-The project contributors grant Klokan Technologies GmbH the license to give such
+by MapTiler AG (info@maptiler.com).  
+The project contributors grant MapTiler AG the license to give such
 exceptions on a commercial basis.
