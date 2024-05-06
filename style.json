@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "Klokantech 3D",
+  "name": "MapTiler 3D",
   "metadata": {
     "mapbox:autocomposite": false,
     "maputnik:renderer": "mbgljs",
@@ -9,7 +9,7 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key={key}"
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key={key}"
     }
   },
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
@@ -611,5 +611,5 @@
       }
     }
   ],
-  "id": "klokantech-3d"
+  "id": "maptiler-3d"
 }
