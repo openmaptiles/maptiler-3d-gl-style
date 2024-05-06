@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "Klokantech 3D",
+  "name": "MapTiler 3D",
   "metadata": {
     "mapbox:autocomposite": false,
     "maputnik:renderer": "mbgljs",
@@ -1436,5 +1436,5 @@
       }
     }
   ],
-  "id": "klokantech-3d"
+  "id": "MapTiler-3d"
 }
